@@ -25,7 +25,7 @@ let weather = {
         document.querySelector(".wind").innerText = "Wind: " + speed + " km/h";
         document.querySelector(".wind_icon2").style.transform = 'rotate(' + deg + 'deg)';
         document.querySelector(".weather").classList.remove("loading");
-        console.log(data);
+        //console.log(data);
 
         //mapbox
         mapboxgl.accessToken = 'pk.eyJ1IjoiYXlvdWIyMjExIiwiYSI6ImNsM3o2N3U2dzBreHkza3F3dm8yMnRkaTgifQ.QcyJ9B6_e5S93W3EgInZyQ';
@@ -90,7 +90,7 @@ let weatherlatlong = {
         document.querySelector(".wind").innerText = "Wind: " + speed + " km/h";
         document.querySelector(".wind_icon2").style.transform = 'rotate(' + deg + 'deg)';
         document.querySelector(".weather").classList.remove("loading");
-        console.log(data);
+        //console.log(data);
 
 
 
